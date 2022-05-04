@@ -1,0 +1,116 @@
+.body-contacts {
+    min-height: 100vh;
+    background-image: url("https://w0.peakpx.com/wallpaper/829/73/HD-wallpaper-social-media-background-communication-design-icons-pattern-seamless-vector.jpg");
+    background-size: cover;
+    font-family: 'Orelega One', cursive;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.mobile-no {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.fa-mobile-screen {
+    font-size: 90px;
+    color: crimson;
+    position: absolute;
+    top: 28.5%;
+    left: 15.5%;
+}
+.p-mobile {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    font-size: 80px;
+    color: gray;
+    animation-name: random-yellow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.email-add {
+    position: absolute;
+    top: 43%;
+    left: 15%;
+}
+.fa-envelope {
+    font-size: 80px;
+    color: red;
+    position: absolute;
+    top: 51.5%;
+    left: 15%;
+}
+.p-email {
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    font-size: 80px;
+    color: gray;
+    animation-name: random-yellow;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+.my-socials {
+    position: absolute;
+    top: 66%;
+    left: 15%;
+}
+.fa-youtube {
+    font-size: 90px;
+    color: red;
+    position: absolute;
+    top: 74%;
+    left: 15%;
+}
+.a-ytc {
+    position: absolute;
+    top: 74%;
+    left: 21%;
+    font-size: 80px;
+    text-decoration: none;
+    color: silver;
+    animation-name: black-white;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.a-ytc:hover {
+    color: rgb(224, 12, 5);
+}
+.fa-facebook {
+    font-size: 90px;
+    color: blue;
+    position: absolute;
+    top: 83%;
+    left: 15.5%;
+}
+.a-fbp {
+    position: absolute;
+    top: 83%;
+    left: 21%;
+    font-size: 80px;
+    text-decoration: none;
+    color: silver;
+    animation-name: black-white;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.a-fbp:hover {
+    color: rgb(9, 4, 250);
+}
+@keyframes black-white {
+    0% {color:rgb(0, 0, 0)};
+    5% {color:rgb(202, 202, 202)};
+    15% {color:rgb(53, 49, 49)};
+    30% {color:rgb(177, 165, 165)};
+    50% {color:rgb(24, 23, 23)};
+    70% {color:rgb(20, 15, 15)};
+    90% {color:rgb(194, 155, 155)};
+    100% {color:rgb(15, 3, 3)};
+}
+@keyframes random-yellow {
+    0% {color:rgb(143, 114, 19)};
+    25% {color:rgb(237, 253, 9)};
+    50% {color:rgb(247, 255, 132)};
+    75% {color:rgb(143, 114, 19)};
+    100% {color:rgb(151, 161, 7)};
+}

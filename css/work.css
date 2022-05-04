@@ -1,0 +1,79 @@
+.body-works {
+    min-height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/1808239.jpg");
+    background-size: cover;
+    font-family: 'Orelega One', cursive;
+    font-size: 55px;
+    font-weight: bolder;
+    color: burlywood;
+}
+.video1 {
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    width: 1270px;
+    height: 700px;
+}
+.p1 {
+    position: absolute;
+    top: 102%;
+    left: 16%;
+}
+.video2 {
+    position: absolute;
+    top: 118%;
+    left: 15%;
+    width: 1270px;
+    height: 700px;
+}
+.p2 {
+    position: absolute;
+    top: 192%;
+    left: 20%;
+}
+.my-ppt-text1 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    color: aquamarine;
+    position: absolute;
+    top: 210%;
+    left: 18%;
+}
+.my-ppt-text2 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    color: blue;
+    position: absolute;
+    top: 210.2%;
+    left: 18.2%;
+}
+.img1 {
+    height: 500px;
+    width: 750px;
+    position: absolute;
+    top: 220%;
+    left: 5%;
+}
+.img2 {
+    height: 500px;
+    width: 750px;
+    position: absolute;
+    top: 220%;
+    left: 55%;
+}
+.img3 {
+    height: 500px;
+    width: 750px;
+    position: absolute;
+    top: 280%;
+    left: 5%;
+}
+.img4 {
+    height: 500px;
+    width: 750px;
+    position: absolute;
+    top: 280%;
+    left: 55%;
+}

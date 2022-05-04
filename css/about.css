@@ -1,0 +1,62 @@
+.body-aboutme {
+    min-height: 100vh;
+    background-image: url("https://polishedmetals.com/wp-content/uploads/2020/09/Stainless-Steel-shutterstock_661808035-700x390.jpg");
+    background-size: cover;
+}
+.about-title {
+    font-family: 'Orelega One', cursive;
+    font-size: 5rem;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    transform: translate(-40%,-30%);
+    animation-name: random-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.about-img {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+.birth-cert {
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    top: 60%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+.about-me {
+    position: absolute;
+    font-size: xx-large;
+    top: 60%;
+    left: 47%;
+    padding: 0px 140px 0px 140px;
+    transform: translate(-50%, -50%);
+}
+.als-cert {
+    width: 520px;
+    height: 600px;
+    position: absolute;
+    top: 120%;
+    left: 0%;
+}
+.ccc-logo {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 110%;
+    left: 66%;
+}
+.my-education {
+    position: absolute;
+    font-size: 28px;
+    top: 100%;
+    left: 48%;
+    padding: 0px 120px 0px 120px;
+    transform: translate(-50%);
+}
