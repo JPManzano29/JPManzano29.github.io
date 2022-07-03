@@ -97,20 +97,60 @@
 .a-fbp:hover {
     color: rgb(9, 4, 250);
 }
-@keyframes black-white {
-    0% {color:rgb(0, 0, 0)};
-    5% {color:rgb(202, 202, 202)};
-    15% {color:rgb(53, 49, 49)};
-    30% {color:rgb(177, 165, 165)};
-    50% {color:rgb(24, 23, 23)};
-    70% {color:rgb(20, 15, 15)};
-    90% {color:rgb(194, 155, 155)};
-    100% {color:rgb(15, 3, 3)};
+.contact-section {
+    margin: 0;
+    padding: 40px 0;
+    position: absolute;
+    top: 92%;
+    left: 25%;
 }
-@keyframes random-yellow {
-    0% {color:rgb(143, 114, 19)};
-    25% {color:rgb(237, 253, 9)};
-    50% {color:rgb(247, 255, 132)};
-    75% {color:rgb(143, 114, 19)};
-    100% {color:rgb(151, 161, 7)};
+.contact-us {
+    text-align: center;
+    animation-name: random-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.border {
+    width: 100px;
+    height: 10px;
+    background: rgb(39, 37, 14);
+    margin: 40px auto;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: black;
+    padding: 20px 40px;
+    outline: none;
+    color: skyblue;
+    transition: 0.5s;
+}
+.contact-form-text:hover {
+    box-shadow: 0 0 10px 4px rgb(228, 204, 98);
+}
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: rgb(228, 204, 98);
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover {
+    background: blue;
 }

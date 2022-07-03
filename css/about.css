@@ -19,23 +19,15 @@
     height: 700px;
     position: absolute;
     top: 60%;
-    left: 13%;
-    transform: translate(-50%, -50%);
-}
-.birth-cert {
-    width: 650px;
-    height: 600px;
-    position: absolute;
-    top: 60%;
-    left: 82%;
+    left: 20%;
     transform: translate(-50%, -50%);
 }
 .about-me {
     position: absolute;
     font-size: xx-large;
     top: 60%;
-    left: 47%;
-    padding: 0px 140px 0px 140px;
+    left: 55%;
+    padding: 0px 0px 0px 140px;
     transform: translate(-50%, -50%);
 }
 .als-cert {
