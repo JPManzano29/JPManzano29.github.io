@@ -9,58 +9,70 @@
 .mobile-no {
     position: absolute;
     top: 20%;
-    left: 15%;
+    left: 5%;
 }
 .fa-mobile-screen {
-    font-size: 90px;
+    font-size: 100px;
     color: crimson;
     position: absolute;
     top: 28.5%;
-    left: 15.5%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 .p-mobile {
     position: absolute;
     top: 28%;
     left: 20%;
     font-size: 80px;
-    color: gray;
+    color: crimson;
     animation-name: random-yellow;
-    animation-duration: 1.5s;
+    animation-duration: 11s;
     animation-iteration-count: infinite;
 }
 .email-add {
     position: absolute;
     top: 43%;
-    left: 15%;
+    left: 5%;
 }
 .fa-envelope {
-    font-size: 80px;
-    color: red;
+    font-size: 100px;
+    color: rgb(255, 96, 5);
     position: absolute;
-    top: 51.5%;
-    left: 15%;
+    top: 50.5%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
 }
 .p-email {
     position: absolute;
-    top: 50%;
+    top: 51%;
     left: 21%;
-    font-size: 80px;
-    color: gray;
+    font-size: 57px;
+    color: rgb(255, 96, 5);
     animation-name: random-yellow;
-    animation-duration: 1.3s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 }
 .my-socials {
     position: absolute;
     top: 66%;
-    left: 15%;
+    left: 5%;
 }
 .fa-youtube {
-    font-size: 90px;
+    font-size: 110px;
     color: red;
     position: absolute;
-    top: 74%;
-    left: 15%;
+    top: 73%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 .a-ytc {
     position: absolute;
@@ -70,22 +82,26 @@
     text-decoration: none;
     color: silver;
     animation-name: black-white;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 .a-ytc:hover {
     color: rgb(224, 12, 5);
 }
 .fa-facebook {
-    font-size: 90px;
+    font-size: 110px;
     color: blue;
     position: absolute;
-    top: 83%;
-    left: 15.5%;
+    top: 86%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .a-fbp {
     position: absolute;
-    top: 83%;
+    top: 87%;
     left: 21%;
     font-size: 80px;
     text-decoration: none;
@@ -101,13 +117,13 @@
     margin: 0;
     padding: 40px 0;
     position: absolute;
-    top: 92%;
+    top: 95%;
     left: 25%;
 }
 .contact-us {
     text-align: center;
     animation-name: random-color;
-    animation-duration: 1s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
 }
 .border {

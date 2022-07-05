@@ -11,11 +11,16 @@ main {
     font-family: 'Stint Ultra Expanded', cursive;
 }
 .home-img {
-    width: 800px;
-    height: 1000px;
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
     position: absolute;
-    top: -03.3%;
-    left: 62.4%;
+    top: 38%;
+    margin-left: 50rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;  
 }
 nav {
     display: flex;
@@ -23,7 +28,7 @@ nav {
     justify-content: space-between;
     min-height: 10vh;
     animation-name: random-background-color;
-    animation-duration: 3s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 }
 nav ul {
@@ -36,14 +41,16 @@ nav a {
     border-radius: 15px;
 }
 li a {
-    padding: 15px 8px 15px 8px;
+    padding: 3px 8px 3px 8px;
 }
 .nav-links {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     list-style: none;
 }
 .nav-links li {
-    padding-left: 10rem;
+    padding-left: 10px;
     font-weight: bolder;
     font-size: xx-large;
 }
@@ -54,19 +61,18 @@ nav a:hover{
     font-family: 'Orelega One', cursive;
     font-size: 4rem;
     position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(-40%,-30%);
+    top: 15%;
+    left: 12%;
+    padding-right: 25rem;
 }
 .big-text {
     font-family: 'Orelega One', cursive;
-    font-size: 5rem;
+    font-size: 8rem;
     position: absolute;
-    top: 70%;
-    left: 40%;
-    transform: translate(-40%,-30%);
+    top: 22%;
+    left: 20%;
     animation-name: random-color;
-    animation-duration: 1s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 .intro {
@@ -131,4 +137,16 @@ nav a:hover{
     50% {color:rgb(247, 255, 132)};
     75% {color:rgb(143, 114, 19)};
     100% {color:rgb(151, 161, 7)};
+}
+@keyframes random-blue {
+    0% {color: rgb(32, 9, 245)};
+    25% {color:rgb(9, 168, 216)};
+    50% {color:rgb(8, 192, 248)};
+    75% {color:rgb(109, 38, 241)};
+    100% {color:rgb(35, 96, 104)};
+}
+@keyframes moving {
+    0% {left: 0;}
+    50% {right: 0;}
+    100% {left: 0; transform: scaleX(-1);}
 }

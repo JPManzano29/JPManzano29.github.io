@@ -1,3 +1,8 @@
+b {
+    animation-name: random-blue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 .body-aboutme {
     min-height: 100vh;
     background-image: url("https://polishedmetals.com/wp-content/uploads/2020/09/Stainless-Steel-shutterstock_661808035-700x390.jpg");
@@ -11,44 +16,50 @@
     left: 40%;
     transform: translate(-40%,-30%);
     animation-name: random-color;
-    animation-duration: 1s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 .about-img {
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
     position: absolute;
-    top: 60%;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    margin-left: 18px;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;  
 }
 .about-me {
     position: absolute;
     font-size: xx-large;
-    top: 60%;
-    left: 55%;
-    padding: 0px 0px 0px 140px;
-    transform: translate(-50%, -50%);
+    top: 23%;
+    left: 25%;
+    padding: 0px 55px 0px 140px;
 }
 .als-cert {
-    width: 520px;
-    height: 600px;
-    position: absolute;
-    top: 120%;
-    left: 0%;
-}
-.ccc-logo {
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 450px;
     position: absolute;
     top: 110%;
-    left: 66%;
+    left: 2%;
+}
+.ccc-logo {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 170%;
+    margin-left: 25px;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;  
 }
 .my-education {
     position: absolute;
-    font-size: 28px;
-    top: 100%;
-    left: 48%;
-    padding: 0px 120px 0px 120px;
-    transform: translate(-50%);
+    font-size: 2rem;
+    top: 105%;
+    left: 36%;
+    padding: 0px 55px 0px 0px;
 }
