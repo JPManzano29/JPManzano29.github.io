@@ -1,0 +1,172 @@
+.body-contacts {
+    min-height: 100vh;
+    background-image: url("https://w0.peakpx.com/wallpaper/829/73/HD-wallpaper-social-media-background-communication-design-icons-pattern-seamless-vector.jpg");
+    background-size: cover;
+    font-family: 'Orelega One', cursive;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.mobile-no {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.fa-mobile-screen {
+    font-size: 100px;
+    color: crimson;
+    position: absolute;
+    top: 28.5%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.p-mobile {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    font-size: 80px;
+    color: crimson;
+    animation-name: random-yellow;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+.email-add {
+    position: absolute;
+    top: 43%;
+    left: 5%;
+}
+.fa-envelope {
+    font-size: 100px;
+    color: rgb(255, 96, 5);
+    position: absolute;
+    top: 50.5%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+}
+.p-email {
+    position: absolute;
+    top: 51%;
+    left: 21%;
+    font-size: 57px;
+    color: rgb(255, 96, 5);
+    animation-name: random-yellow;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.my-socials {
+    position: absolute;
+    top: 66%;
+    left: 5%;
+}
+.fa-youtube {
+    font-size: 110px;
+    color: red;
+    position: absolute;
+    top: 73%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.a-ytc {
+    position: absolute;
+    top: 74%;
+    left: 21%;
+    font-size: 80px;
+    text-decoration: none;
+    color: silver;
+    animation-name: black-white;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.a-ytc:hover {
+    color: rgb(224, 12, 5);
+}
+.fa-facebook {
+    font-size: 110px;
+    color: blue;
+    position: absolute;
+    top: 86%;
+    margin-left: 7rem;
+    animation: linear infinite alternate;
+    animation-name: moving;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.a-fbp {
+    position: absolute;
+    top: 87%;
+    left: 21%;
+    font-size: 80px;
+    text-decoration: none;
+    color: silver;
+    animation-name: black-white;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.a-fbp:hover {
+    color: rgb(9, 4, 250);
+}
+.contact-section {
+    margin: 0;
+    padding: 40px 0;
+    position: absolute;
+    top: 95%;
+    left: 25%;
+}
+.contact-us {
+    text-align: center;
+    animation-name: random-color;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+.border {
+    width: 100px;
+    height: 10px;
+    background: rgb(39, 37, 14);
+    margin: 40px auto;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: black;
+    padding: 20px 40px;
+    outline: none;
+    color: skyblue;
+    transition: 0.5s;
+}
+.contact-form-text:hover {
+    box-shadow: 0 0 10px 4px rgb(228, 204, 98);
+}
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: rgb(228, 204, 98);
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover {
+    background: blue;
+}
