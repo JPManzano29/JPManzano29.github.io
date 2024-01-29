@@ -71,7 +71,7 @@ li a {
     }
 
     .greet-text {
-        font-size: .2rem; /* Adjust the font size of the greeting text on smaller screens */
+        font-size: 12px; /* Adjust the font size of the greeting text on smaller screens */
         left: 5%; /* Adjust the position */
         padding-right: 1rem;
     }
@@ -229,3 +229,4 @@ nav a:hover {
     50% {right: 0;}
     100% {left: 0; transform: scaleX(-1);}
 }
+
