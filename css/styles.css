@@ -62,18 +62,18 @@ li a {
 
     .nav-links li {
         padding: 10px;
-        font-size: medium; /* Adjust font size for smaller screens */
+        font-size: 12px; /* Adjust font size for smaller screens */
     }
 
     .big-text {
-        font-size: 4rem; /* Adjust the font size of the big text on smaller screens */
+        font-size: .5rem; /* Adjust the font size of the big text on smaller screens */
         left: 10%; /* Adjust the position */
     }
 
     .greet-text {
-        font-size: 2.5rem; /* Adjust the font size of the greeting text on smaller screens */
+        font-size: .2rem; /* Adjust the font size of the greeting text on smaller screens */
         left: 5%; /* Adjust the position */
-        padding-right: 5rem;
+        padding-right: 1rem;
     }
 
     .container {
@@ -81,8 +81,8 @@ li a {
     }
 
     .home-img {
-        width: 200px; /* Adjust the width of the image on smaller screens */
-        height: 300px; /* Adjust the height of the image on smaller screens */
+        width: 100px; /* Adjust the width of the image on smaller screens */
+        height: 150px; /* Adjust the height of the image on smaller screens */
         margin-left: 5%; /* Adjust the margin of the image on smaller screens */
     }
 }
