@@ -1,0 +1,217 @@
+.body-work {
+    min-height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/1808239.jpg");
+    background-size: cover;
+    font-family: 'Orelega One', cursive;
+    font-size: 55px;
+    font-weight: bolder;
+    color: burlywood;
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+.work-title {
+    font-family: 'Orelega One', cursive;
+    font-size: 5rem;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    transform:translate(-40%,-30%);
+    animation-name: random-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.thesis-title {
+    font-family: 'Orelega One', cursive;
+    color: white;
+    font-size: 3.2rem;
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    transform: translate(-40%, -30%);
+    -webkit-text-stroke: 1px #eb281a; /* Replace shadow with white outline */
+    text-stroke: 1px #eb281a; /* Replace shadow with white outline */
+}
+
+.video1 {
+    position: absolute;
+    top: 37%;
+    left: 1%;
+    width: 1200px;
+    height: 800px;
+    border: 15px double;
+    animation-name: random-blue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.p1 {
+    font-size: 3rem;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    animation-name: random-yellow;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.video2 {
+    position: absolute;
+    top: 133%;
+    left: 1%;
+    width: 1200px;
+    height: 800px;
+    border: 15px double;
+    animation-name: random-blue;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+.p2 {
+    font-size: 3rem;
+    position: absolute;
+    top: 135%;
+    left: 20%;
+    animation-name: random-yellow;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.my-text1 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: aquamarine;
+    position: absolute;
+    top: 230%;
+    margin-left: 9rem;
+}
+.my-text2 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    animation-name: random-blue;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 230%;
+    margin-left: 9.2rem;
+}
+.img1 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 255%;
+    left: .5%;
+}
+.img2 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 255%;
+    left: 50.5%;
+}
+.img3 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 315%;
+    left: .5%;
+}
+.img4 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 315%;
+    left: 50.5%;
+}
+.img5 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 375%;
+    left: .5%;
+}
+.img6 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 375%;
+    left: 50.5%;
+}
+.img7 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 435%;
+    left: .5%;
+}
+.img8 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 435%;
+    left: 50.5%;
+}
+.img9 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 495%;
+    left: .5%;
+}
+.img10 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 495%;
+    left: 50.5%;
+}
+
+.my-text3 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: aquamarine;
+    position: absolute;
+    top: 555%;
+    margin-left: 9rem;
+}
+.my-text4 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    animation-name: random-blue;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 555%;
+    margin-left: 9.2rem;
+}
+.img11 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 575%;
+    left: .5%;
+}
+.img12 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 575%;
+    left: 50.5%;
+}
+.img13 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 635%;
+    left: .5%;
+}
+.img14 {
+    height: 520px;
+    width: 850px;
+    position: absolute;
+    top: 635%;
+    left: 50.5%;
+}
+.br {
+    margin-top: 2rem;
+}
+
+
