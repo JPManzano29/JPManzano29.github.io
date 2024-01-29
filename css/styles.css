@@ -49,9 +49,39 @@ li a {
     list-style: none;
 }
 .nav-links li {
-    padding-left: 10px;
-    font-weight: bolder;
-    font-size: xx-large;
+    padding: 10px; /* Adjust the padding for better spacing on smaller screens */
+    font-size: large; /* Set the font size for the navigation links */
+}
+/* Use media queries to adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        text-align: center; /* Center align the navigation links */
+    }
+
+    .nav-links li {
+        padding: 10px;
+        font-size: medium; /* Adjust font size for smaller screens */
+    }
+
+    .big-text {
+        font-size: 5rem; /* Adjust the font size of the big text on smaller screens */
+        left: 10%; /* Adjust the position */
+    }
+
+    .greet-text {
+        font-size: 3rem; /* Adjust the font size of the greeting text on smaller screens */
+        left: 5%; /* Adjust the position */
+        padding-right: 10rem;
+    }
+
+    .container {
+        top: 30%; /* Adjust the position of the container on smaller screens */
+    }
+
+    .home-img {
+        margin-left: 10rem; /* Adjust the margin of the image on smaller screens */
+    }
 }
 nav a:hover {
     color: silver;
