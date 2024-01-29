@@ -53,39 +53,6 @@ li a {
     font-size: large; /* Set the font size for the navigation links */
 }
 
-/* Use media queries to adjust styles for smaller screens */
-@media only screen and (max-width: 768px) {
-    .nav-links {
-        flex-direction: column; /* Change to a column layout on smaller screens */
-        text-align: center; /* Center align the navigation links */
-    }
-
-    .nav-links li {
-        padding: 10px;
-        font-size: 12px; /* Adjust font size for smaller screens */
-    }
-
-    .big-text {
-        font-size: .5rem; /* Adjust the font size of the big text on smaller screens */
-        left: 10%; /* Adjust the position */
-    }
-
-    .greet-text {
-        font-size: 10px; /* Adjust the font size of the greeting text on smaller screens */
-        top: 15%; /* Adjust the position */
-    }
-
-    .container {
-        top: 25%; /* Adjust the position of the container on smaller screens */
-    }
-
-    .home-img {
-        width: 100px; /* Adjust the width of the image on smaller screens */
-        height: 150px; /* Adjust the height of the image on smaller screens */
-        margin-left: 5%; /* Adjust the margin of the image on smaller screens */
-    }
-}
-
 nav a:hover {
     color: silver;
 }
@@ -177,6 +144,39 @@ nav a:hover {
 .hide span {
     transform: translateY(100%);
     display: inline-block;
+}
+
+/* Use media queries to adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        text-align: center; /* Center align the navigation links */
+    }
+
+    .nav-links li {
+        padding: 10px;
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    .big-text {
+        font-size: .5rem; /* Adjust the font size of the big text on smaller screens */
+        left: 10%; /* Adjust the position */
+    }
+
+    .greet-text {
+        font-size: 10px; /* Adjust the font size of the greeting text on smaller screens */
+        top: 15%; /* Adjust the position */
+    }
+
+    .container {
+        top: 25%; /* Adjust the position of the container on smaller screens */
+    }
+
+    .home-img {
+        width: 100px; /* Adjust the width of the image on smaller screens */
+        height: 150px; /* Adjust the height of the image on smaller screens */
+        margin-left: 5%; /* Adjust the margin of the image on smaller screens */
+    }
 }
 
 @keyframes animate {
