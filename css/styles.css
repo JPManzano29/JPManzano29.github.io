@@ -52,6 +52,7 @@ li a {
     padding: 10px; /* Adjust the padding for better spacing on smaller screens */
     font-size: large; /* Set the font size for the navigation links */
 }
+
 /* Use media queries to adjust styles for smaller screens */
 @media only screen and (max-width: 768px) {
     .nav-links {
@@ -65,24 +66,27 @@ li a {
     }
 
     .big-text {
-        font-size: 5rem; /* Adjust the font size of the big text on smaller screens */
+        font-size: 4rem; /* Adjust the font size of the big text on smaller screens */
         left: 10%; /* Adjust the position */
     }
 
     .greet-text {
-        font-size: 3rem; /* Adjust the font size of the greeting text on smaller screens */
+        font-size: 2.5rem; /* Adjust the font size of the greeting text on smaller screens */
         left: 5%; /* Adjust the position */
-        padding-right: 10rem;
+        padding-right: 5rem;
     }
 
     .container {
-        top: 30%; /* Adjust the position of the container on smaller screens */
+        top: 25%; /* Adjust the position of the container on smaller screens */
     }
 
     .home-img {
-        margin-left: 10rem; /* Adjust the margin of the image on smaller screens */
+        width: 200px; /* Adjust the width of the image on smaller screens */
+        height: 300px; /* Adjust the height of the image on smaller screens */
+        margin-left: 5%; /* Adjust the margin of the image on smaller screens */
     }
 }
+
 nav a:hover {
     color: silver;
 }
