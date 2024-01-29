@@ -71,9 +71,8 @@ li a {
     }
 
     .greet-text {
-        font-size: 12px; /* Adjust the font size of the greeting text on smaller screens */
-        left: 5%; /* Adjust the position */
-        padding-right: 1rem;
+        font-size: 10px; /* Adjust the font size of the greeting text on smaller screens */
+        top: 15%; /* Adjust the position */
     }
 
     .container {
