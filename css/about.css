@@ -86,7 +86,7 @@ b {
         border-radius: 50%;
         position: absolute;
         top: 40%;
-        left: -2.5%;
+        left: -3.5%;
         
     }
     .about-me {
@@ -95,7 +95,6 @@ b {
         top: 42%;
         left: 44%;
         width: 60%;
-        margin: 2rem;
     }
     .als-cert {
         width: 400px;
