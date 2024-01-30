@@ -171,7 +171,7 @@ nav a:hover {
     }
 
     .container {
-        top: 35%; /* Adjust the position of the container on smaller screens */
+        top: 32%; /* Adjust the position of the container on smaller screens */
         left: 34%;
     }
 
@@ -189,7 +189,7 @@ nav a:hover {
         height: 150px; /* Adjust the height of the image on smaller screens */
         margin-left: 40%; /* Adjust the margin of the image on smaller screens */
         position: absolute;
-        top: 50%;   
+        top: 45%;   
     }
 
     .slider {
@@ -216,7 +216,7 @@ nav a:hover {
     }
 
     .hide .text {
-        font-size: 46px;
+        font-size: 35px;
     }
     .hide span {
         transform: translateY(100%);
