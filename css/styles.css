@@ -207,7 +207,12 @@ nav a:hover {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 10px; /* Adjust the font size for the text inside the slider */
         text-align: center; /* Center align the text */
+        position: absolute;
+        top: 5%; /* Adjust the top position */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
     }
+    
     
     .hide {
         background-color: black;
