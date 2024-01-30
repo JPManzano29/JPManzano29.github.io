@@ -4,9 +4,9 @@ b {
     animation-iteration-count: infinite;
 }
 .body-aboutme {
-    min-height: 100vh;
     background-image: url("https://polishedmetals.com/wp-content/uploads/2020/09/Stainless-Steel-shutterstock_661808035-700x390.jpg");
     background-size: cover;
+    margin-bottom: 2rem;
 }
 .about-title {
     font-family: 'Orelega One', cursive;
@@ -67,62 +67,804 @@ b {
     margin: 2rem;
 }
 
-/* Use media queries to adjust styles for smaller screens */
-@media only screen and (max-width: 1500px) {
+/* Additional styles for screens up to 2800px width */
+@media only screen and (max-width: 2800px) {
     .about-title {
-        font-family: 'Orelega One', cursive;
-        font-size: 20px;
-        position: absolute;
-        top: 38%;
-        left: 43%;
-        transform:translate(-40%,-30%);
-        animation-name: random-color;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
+        font-size: 4.5rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
     }
     .about-img {
-        width: 90px;
-        height: 110px;
-        border-radius: 50%;
-        position: absolute;
-        top: 40%;
-        left: -3.5%;
-        
+        width: 210px; /* Adjust the width for smaller screens */
+        height: 200px; /* Adjust the height for smaller screens */
+        top: 40%; /* Adjust the position for smaller screens */
+        left: 1%; /* Adjust the position for smaller screens */
     }
     .about-me {
-        position: absolute;
-        font-size: 9px;
-        top: 37%;
-        left: 22%;
-        width: 60%;
+        font-size: 2.1rem; /* Adjust font size for smaller screens */
+        top: 37%; /* Adjust the position for smaller screens */
+        left: 55.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
     }
     .als-cert {
-        width: 90px;
-        height: 110px;
-        position: absolute;
-        top: 95%;
-        left: 2%;
+        width: 220px; /* Adjust the width for smaller screens */
+        height: 240px; /* Adjust the height for smaller screens */
+        top: 73%; /* Adjust the position for smaller screens */
+        left: 2.5%; /* Adjust the position for smaller screens */
     }
     .ccc-logo {
-        width: 90px;
-        height: 110px;
-        position: absolute;
-        top: 150%;
-        left: -7%;
+        width: 250px; /* Adjust the width for smaller screens */
+        height: 220px; /* Adjust the height for smaller screens */
+        top: 110%; /* Adjust the position for smaller screens */
+        left: .5%; /* Adjust the position for smaller screens */
     }
     .my-education1 {
-        position: absolute;
-        font-size: 9px;
-        top: 90%;
-        left: 22%;
-        width: 60%;
+        font-size: 2.1rem; /* Adjust font size for smaller screens */
+        top: 68%; /* Adjust the position for smaller screens */
+        left: 55%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
     }
     .my-education2 {
-        position: absolute;
-        font-size: 9px;
-        top: 146%;
-        left: 22%;
-        width: 60%;
-        margin: 2rem;
+        font-size: 2.1rem; /* Adjust font size for smaller screens */
+        top: 112%; /* Adjust the position for smaller screens */
+        left: 55.7%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1800px width */
+@media only screen and (max-width: 1800px) {
+    .about-title {
+        font-size: 4rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 190px; /* Adjust the width for smaller screens */
+        height: 180px; /* Adjust the height for smaller screens */
+        top: 39%; /* Adjust the position for smaller screens */
+        left: 1%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.9rem; /* Adjust font size for smaller screens */
+        top: 35%; /* Adjust the position for smaller screens */
+        left: 53.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 180px; /* Adjust the width for smaller screens */
+        height: 190px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 210px; /* Adjust the width for smaller screens */
+        height: 180px; /* Adjust the height for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: -.2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.9rem; /* Adjust font size for smaller screens */
+        top: 64%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.9rem; /* Adjust font size for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: 54%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1700px width */
+@media only screen and (max-width: 1700px) {
+    .about-title {
+        font-size: 3.6rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 180px; /* Adjust the width for smaller screens */
+        height: 170px; /* Adjust the height for smaller screens */
+        top: 39%; /* Adjust the position for smaller screens */
+        left: 1%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 34%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 170px; /* Adjust the width for smaller screens */
+        height: 180px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 200px; /* Adjust the width for smaller screens */
+        height: 170px; /* Adjust the height for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: -.8%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1700px width */
+@media only screen and (max-width: 1700px) {
+    .about-title {
+        font-size: 3.6rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 180px; /* Adjust the width for smaller screens */
+        height: 170px; /* Adjust the height for smaller screens */
+        top: 39%; /* Adjust the position for smaller screens */
+        left: 1%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 34%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 170px; /* Adjust the width for smaller screens */
+        height: 180px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 200px; /* Adjust the width for smaller screens */
+        height: 170px; /* Adjust the height for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: -.8%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1600px width */
+@media only screen and (max-width: 1600px) {
+    .about-title {
+        font-size: 3.5rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 170px; /* Adjust the width for smaller screens */
+        height: 160px; /* Adjust the height for smaller screens */
+        top: 39%; /* Adjust the position for smaller screens */
+        left: 1%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 34%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 160px; /* Adjust the width for smaller screens */
+        height: 170px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 190px; /* Adjust the width for smaller screens */
+        height: 160px; /* Adjust the height for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: -.8%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 100%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1500px width */
+@media only screen and (max-width: 1500px) {
+    .about-title {
+        font-size: 3.4rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 150px; /* Adjust the width for smaller screens */
+        height: 140px; /* Adjust the height for smaller screens */
+        top: 39%; /* Adjust the position for smaller screens */
+        left: 1%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 34%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 140px; /* Adjust the width for smaller screens */
+        height: 140px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 170px; /* Adjust the width for smaller screens */
+        height: 140px; /* Adjust the height for smaller screens */
+        top: 105%; /* Adjust the position for smaller screens */
+        left: -.8%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        top: 101%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1400px width */
+@media only screen and (max-width: 1400px) {
+    .about-title {
+        font-size: 3.3rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 140px; /* Adjust the width for smaller screens */
+        height: 130px; /* Adjust the height for smaller screens */
+        top: 37%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.7rem; /* Adjust font size for smaller screens */
+        top: 34%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 130px; /* Adjust the width for smaller screens */
+        height: 130px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 160px; /* Adjust the width for smaller screens */
+        height: 130px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -1%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.7rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.7rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1300px width */
+@media only screen and (max-width: 1300px) {
+    .about-title {
+        font-size: 3.2rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 130px; /* Adjust the width for smaller screens */
+        height: 120px; /* Adjust the height for smaller screens */
+        top: 36%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.55rem; /* Adjust font size for smaller screens */
+        top: 33%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 120px; /* Adjust the width for smaller screens */
+        height: 120px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 150px; /* Adjust the width for smaller screens */
+        height: 120px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.55rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.55rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1200px width */
+@media only screen and (max-width: 1200px) {
+    .about-title {
+        font-size: 3.1rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 120px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 36%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.45rem; /* Adjust font size for smaller screens */
+        top: 32%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 110px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 140px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.45rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.45rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1100px width */
+@media only screen and (max-width: 1100px) {
+    .about-title {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 110px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 36%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.35rem; /* Adjust font size for smaller screens */
+        top: 31%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 110px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 130px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.35rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.35rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 1000px width */
+@media only screen and (max-width: 1000px) {
+    .about-title {
+        font-size: 2.9rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 110px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 35%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+        top: 30%; /* Adjust the position for smaller screens */
+        left: 52.8%; /* Center horizontally */
+        width: 81%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 110px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 120px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 950px width */
+@media only screen and (max-width: 950px) {
+    .about-title {
+        font-size: 2.8rem; /* Adjust font size for smaller screens */
+        top: 27%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 110px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 35%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+        top: 30%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 110px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 120px; /* Adjust the width for smaller screens */
+        height: 110px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 900px width */
+@media only screen and (max-width: 900px) {
+    .about-title {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+        top: 28%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 100px; /* Adjust the width for smaller screens */
+        height: 100px; /* Adjust the height for smaller screens */
+        top: 35%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        top: 30%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 100px; /* Adjust the width for smaller screens */
+        height: 100px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 100px; /* Adjust the width for smaller screens */
+        height: 100px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 850px width */
+@media only screen and (max-width: 850px) {
+    .about-title {
+        font-size: 2.05rem; /* Adjust font size for smaller screens */
+        top: 28%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 80px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 40%; /* Adjust the position for smaller screens */
+        left: -.05%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
+        top: 30%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 70px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 70%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 80px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 102%; /* Adjust the position for smaller screens */
+        left: -2%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
+        top: 62%; /* Adjust the position for smaller screens */
+        left: 52%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
+        top: 98%; /* Adjust the position for smaller screens */
+        left: 53%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 800px width */
+@media only screen and (max-width: 800px) {
+    .about-title {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        top: 28%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 80px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 40%; /* Adjust the position for smaller screens */
+        left: -2.5%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 1.08rem; /* Adjust font size for smaller screens */
+        top: 35%; /* Adjust the position for smaller screens */
+        left: 60%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1.1rem;
+    }
+    .als-cert {
+        width: 70px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 78%; /* Adjust the position for smaller screens */
+        left: 2%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 80px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 120%; /* Adjust the position for smaller screens */
+        left: -4%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 1.08rem; /* Adjust font size for smaller screens */
+        top: 71%; /* Adjust the position for smaller screens */
+        left: 60%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem;
+    }
+    .my-education2 {
+        font-size: 1.08rem; /* Adjust font size for smaller screens */
+        top: 115%; /* Adjust the position for smaller screens */
+        left: 60%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin-right: 1.5rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Additional styles for screens up to 500px width */
+@media only screen and (max-width: 500px) {
+    .about-title {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        top: 30%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .about-img {
+        width: 60px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 40%; /* Adjust the position for smaller screens */
+        left: -5%; /* Adjust the position for smaller screens */
+    }
+    .about-me {
+        font-size: 8px; /* Adjust font size for smaller screens */
+        top: 30%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .als-cert {
+        width: 60px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 90%; /* Adjust the position for smaller screens */
+        left: 5%; /* Adjust the position for smaller screens */
+    }
+    .ccc-logo {
+        width: 60px; /* Adjust the width for smaller screens */
+        height: 80px; /* Adjust the height for smaller screens */
+        top: 120%; /* Adjust the position for smaller screens */
+        left: -10%; /* Adjust the position for smaller screens */
+    }
+    .my-education1 {
+        font-size: 8px; /* Adjust font size for smaller screens */
+        top: 80%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+    }
+    .my-education2 {
+        font-size: 8px; /* Adjust font size for smaller screens */
+        top: 110%; /* Adjust the position for smaller screens */
+        left: 50%; /* Center horizontally */
+        width: 80%; /* Adjust the width for smaller screens */
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 1rem; /* Adjust margin for smaller screens */
     }
 }
