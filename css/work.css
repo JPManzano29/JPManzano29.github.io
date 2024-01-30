@@ -213,5 +213,9 @@
 .br {
     margin-top: 2rem;
 }
+/* Use media queries to adjust styles for smaller screens */
+@media only screen and (max-width: 1500px) {
+    
+}
 
 
