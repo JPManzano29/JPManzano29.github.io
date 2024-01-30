@@ -70,12 +70,12 @@ b {
 /* Use media queries to adjust styles for smaller screens */
 @media only screen and (max-width: 1500px) {
     .about-img {
-        width: 100px;
-        height: 150px;
+        width: 90px;
+        height: 110px;
         border-radius: 50%;
         position: absolute;
-        top: 30%;
-        margin-left: 18px;
+        top: 32%;
+        left: .5%;
         
     }
     .about-me {
