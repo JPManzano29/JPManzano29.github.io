@@ -160,7 +160,7 @@ nav a:hover {
 
     .big-text {
         font-size: 20px; /* Adjust the font size of the big text on smaller screens */
-        top: 38%;
+        top: 43%;
         left: 32%; /* Adjust the position */
     }
 
@@ -171,8 +171,8 @@ nav a:hover {
     }
 
     .container {
-        top: 50%; /* Adjust the position of the container on smaller screens */
-        left: 18%;
+        top: 60%; /* Adjust the position of the container on smaller screens */
+        left: 15%;
     }
 
     .container .text {
