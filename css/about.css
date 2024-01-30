@@ -91,9 +91,9 @@ b {
     }
     .about-me {
         position: absolute;
-        font-size: 14px;
-        top: 42%;
-        left: 40%;
+        font-size: 12px;
+        top: 40%;
+        left: 36%;
         width: 60%;
     }
     .als-cert {
