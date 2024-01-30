@@ -166,13 +166,13 @@ nav a:hover {
 
     .greet-text {
         font-size: 18px; /* Adjust the font size of the greeting text on smaller screens */
-        top: 36%; /* Adjust the position */
+        top: 39%; /* Adjust the position */
         left: 20%;
     }
 
     .container {
-        top: 45%; /* Adjust the position of the container on smaller screens */
-        left: 30%;
+        top: 50%; /* Adjust the position of the container on smaller screens */
+        left: 18%;
     }
 
     .container .text {
@@ -189,7 +189,7 @@ nav a:hover {
         height: 150px; /* Adjust the height of the image on smaller screens */
         margin-left: 40%; /* Adjust the margin of the image on smaller screens */
         position: absolute;
-        top: 55%;   
+        top: 65%;   
     }
 
     .intro .intro-text {
