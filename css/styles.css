@@ -205,6 +205,7 @@ nav a:hover {
     .slider .intro-text {
         color: rgb(227, 242, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px; /* Adjust the font size for the text inside the slider */
         text-align: center; /* Center align the text */
         margin-top: 5%; /* Adjust the margin as needed */
     }
@@ -215,7 +216,7 @@ nav a:hover {
     }
 
     .hide .text {
-        font-size: 40px;
+        font-size: 30px;
     }
     .hide span {
         transform: translateY(100%);
