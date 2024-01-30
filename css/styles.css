@@ -171,7 +171,7 @@ nav a:hover {
     }
 
     .container {
-        top: 38%; /* Adjust the position of the container on smaller screens */
+        top: 35%; /* Adjust the position of the container on smaller screens */
         left: 34%;
     }
 
@@ -206,6 +206,8 @@ nav a:hover {
         color: rgb(227, 242, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 12px; /* Adjust the font size for the text inside the slider */
+        text-align: center; /* Center align the text */
+        margin-top: 5%; /* Adjust the margin as needed */
     }
     
     .hide {
@@ -214,7 +216,7 @@ nav a:hover {
     }
 
     .hide .text {
-        font-size: 40px;
+        font-size: 46px;
     }
     .hide span {
         transform: translateY(100%);
