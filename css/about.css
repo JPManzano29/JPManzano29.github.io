@@ -69,13 +69,24 @@ b {
 
 /* Use media queries to adjust styles for smaller screens */
 @media only screen and (max-width: 1500px) {
+    .about-title {
+        font-family: 'Orelega One', cursive;
+        font-size: 20px;
+        position: absolute;
+        top: 38%;
+        left: 40%;
+        transform:translate(-40%,-30%);
+        animation-name: random-color;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
     .about-img {
         width: 90px;
         height: 110px;
         border-radius: 50%;
         position: absolute;
-        top: 32%;
-        left: .5%;
+        top: 40%;
+        left: -1%;
         
     }
     .about-me {
