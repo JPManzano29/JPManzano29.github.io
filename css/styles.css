@@ -159,15 +159,15 @@ nav a:hover {
     }
 
     .big-text {
-        font-size: 3rem; /* Adjust the font size of the big text on smaller screens */
-        top: 30%;
-        left: 34%; /* Adjust the position */
+        font-size: 20px; /* Adjust the font size of the big text on smaller screens */
+        top: 38%;
+        left: 32%; /* Adjust the position */
     }
 
     .greet-text {
-        font-size: 2rem; /* Adjust the font size of the greeting text on smaller screens */
-        top: 26%; /* Adjust the position */
-        left: 27%;
+        font-size: 18px; /* Adjust the font size of the greeting text on smaller screens */
+        top: 35%; /* Adjust the position */
+        left: 20%;
     }
 
     .container {
@@ -196,7 +196,7 @@ nav a:hover {
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 50%;
+        width: 60%;
     }
 
     .slider {
