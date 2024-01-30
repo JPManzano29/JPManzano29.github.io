@@ -6,4 +6,3 @@ timeline.to('.intro', {y: "-100%", duration: 1}, "-=1");
 timeline.fromTo("nav", {opacity: 0}, {opacity: 1, duration: 1});
 timeline.fromTo(".greet-text", {opacity: 0}, {opacity: 1, duration: 1}, "-=1");
 timeline.fromTo(".big-text", {opacity: 0}, {opacity: 1, duration: 1}, "-=1");
-

@@ -147,7 +147,7 @@ nav a:hover {
 }
 
 /* Use media queries to adjust styles for smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1500px) {
     .nav-links {
         flex-direction: column; /* Change to a column layout on smaller screens */
         text-align: center; /* Center align the navigation links */
@@ -159,26 +159,26 @@ nav a:hover {
     }
 
     .big-text {
-        font-size: 20px; /* Adjust the font size of the big text on smaller screens */
-        top: 28%;
+        font-size: 3rem; /* Adjust the font size of the big text on smaller screens */
+        top: 30%;
         left: 34%; /* Adjust the position */
     }
 
     .greet-text {
-        font-size: 16px; /* Adjust the font size of the greeting text on smaller screens */
+        font-size: 2rem; /* Adjust the font size of the greeting text on smaller screens */
         top: 26%; /* Adjust the position */
-        left: 28.5%;
+        left: 27%;
     }
 
     .container {
-        top: 32%; /* Adjust the position of the container on smaller screens */
+        top: 38%; /* Adjust the position of the container on smaller screens */
         left: 34%;
     }
 
     .container .text {
         position: relative;
         font-family: 'Orelega One', cursive;
-        font-size: 18px;
+        font-size: 2.8rem;
         animation-name: random-color;
         animation-duration: 10s;
         animation-iteration-count: infinite;
@@ -189,7 +189,7 @@ nav a:hover {
         height: 150px; /* Adjust the height of the image on smaller screens */
         margin-left: 40%; /* Adjust the margin of the image on smaller screens */
         position: absolute;
-        top: 40%;   
+        top: 50%;   
     }
 
     .slider {
