@@ -194,9 +194,9 @@ nav a:hover {
 
     .intro .intro-text {
         position: absolute;
-        top: 0%;
+        top: 20%;
         left: 0%;
-        width: 60%;
+        width: 80%;
     }
 
     .slider {
