@@ -178,7 +178,7 @@ nav a:hover {
     .container .text {
         position: relative;
         font-family: 'Orelega One', cursive;
-        font-size: 18px;
+        font-size: 28px;
         animation-name: random-color;
         animation-duration: 10s;
         animation-iteration-count: infinite;
