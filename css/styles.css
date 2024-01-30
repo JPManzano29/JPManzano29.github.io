@@ -166,19 +166,19 @@ nav a:hover {
 
     .greet-text {
         font-size: 18px; /* Adjust the font size of the greeting text on smaller screens */
-        top: 35%; /* Adjust the position */
+        top: 36%; /* Adjust the position */
         left: 20%;
     }
 
     .container {
-        top: 32%; /* Adjust the position of the container on smaller screens */
-        left: 34%;
+        top: 45%; /* Adjust the position of the container on smaller screens */
+        left: 30%;
     }
 
     .container .text {
         position: relative;
         font-family: 'Orelega One', cursive;
-        font-size: 28px;
+        font-size: 19px;
         animation-name: random-color;
         animation-duration: 10s;
         animation-iteration-count: infinite;
@@ -189,7 +189,7 @@ nav a:hover {
         height: 150px; /* Adjust the height of the image on smaller screens */
         margin-left: 40%; /* Adjust the margin of the image on smaller screens */
         position: absolute;
-        top: 45%;   
+        top: 55%;   
     }
 
     .intro .intro-text {
