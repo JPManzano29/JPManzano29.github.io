@@ -194,7 +194,6 @@ nav a:hover {
 
     .slider {
         background-color: rgb(88, 95, 105);
-        position: fixed;
         top: 0;
         bottom: 0;
         width: 100%;
@@ -208,6 +207,7 @@ nav a:hover {
         font-size: 10px; /* Adjust the font size for the text inside the slider */
         position: absolute;
         top: 10%; /* Adjust the top position */
+        left: 0%;
     }
     
     
@@ -218,7 +218,7 @@ nav a:hover {
 
     .hide .text {
         font-size: 16px;
-        padding-right: 18rem;
+        padding-right: 15rem;
     }
     .hide span {
         transform: translateY(100%);
