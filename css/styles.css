@@ -217,6 +217,7 @@ nav a:hover {
 
     .hide .text {
         font-size: 30px;
+        padding-right: 5rem;
     }
     .hide span {
         transform: translateY(100%);
